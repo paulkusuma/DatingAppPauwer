@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main">
+
+    <View
+        android:id="@+id/dating_apps"
+        android:layout_width="275dp"
+        android:layout_height="232dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/logo">
+    </View>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="258dp"
+        android:onClick="onLoginClick"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="199dp"
+        android:onClick="onLoginClick"
+        android:text="SigUp" />
+
+    <TextView
+        android:id="@+id/continue_as"
+        android:layout_width="124dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="686dp"
+        android:gravity="center_horizontal|top"
+        android:text="Continue As Gues"
+        android:textColor="#35C2C1"
+        />
+</RelativeLayout>

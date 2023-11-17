@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DatingAppPauwer</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="explore_ek3_string">Explore</string>
+    <string name="_612__eliza_jackson___the_real_life_of_a_ui_designer_string">612: Eliza Jackson  |  The Real Life of a UI Designer</string>
+    <string name="ui_breakfast_show_string">UI Breakfast Show</string>
+    <string name="view_string">View</string>
+    <string name="_5000_string">5000 </string>
+    <string name="read_more_string">Read more</string>
+    <string name="my_name_is_jessica_parker_and_i_enjoy_meeting_new_people_and_finding_ways_to_help_them_have_an_uplifting_experience__i_enjoy_reading___string">My name is Jessica Parker and I enjoy meeting new people and finding ways to help them have an uplifting experience. I enjoy reading..</string>
+    <string name="about_string">About</string>
+    <string name="__5_coin_string">-5 coin</string>
+</resources>
