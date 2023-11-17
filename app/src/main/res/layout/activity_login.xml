@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login">
+    tools:context=".Login">
 
     <EditText
         android:id="@+id/usernameEditTextLogin"
@@ -41,6 +41,7 @@
         android:textColor="#000000" />
 
     <Button
+        android:id="@+id/buttonLoginMasuk"
         android:layout_width="244dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -49,5 +50,5 @@
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="208dp"
         android:onClick="onSignUpClick"
-        android:text="Sign Up" />
+        android:text="Login" />
 </RelativeLayout>
