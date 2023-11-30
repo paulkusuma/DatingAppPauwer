@@ -19,4 +19,19 @@
     <color name="_bg__frame_20_ek1_color">#865DFF</color>
     <color name="menu_divider_color">#E8E6EA</color>
     <color name="ellipse_1_color">#E94057</color>
+
+    <color name="_bg__view_profile_ek2_color">#FFFFFF</color>
+    <color name="_bg___4_about_ek1_color">#000000</color>
+    <color name="read_more_color">#E94057</color>
+    <color name="ig___tokyovibess__color">#060047</color>
+
+
+    <color name="_bg__edit_profile_ek2_color">#FFFFFF</color>
+    <color name="rectangle_45_color">#865DFF</color>
+    <color name="rectangle_46_color">#F6F6F6</color>
+    <color name="_bg__status_bar_ek1_color">#000000</color>
+    <color name="rectangle_36_copy_5_color">#ffffff</color>
+    <color name="rectangle_31_color">#171E1D</color>
+
+
 </resources>

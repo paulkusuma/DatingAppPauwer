@@ -1,13 +1,14 @@
 package com.example.datingapppauwer
 
 import androidx.appcompat.app.AppCompatActivity
-//import android.app.Activity
+import android.content.Intent
+import android.app.Activity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 
-class ExploreActivity : AppCompatActivity() {
+class ExploreActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var _bgExploreEk2: View
     private lateinit var rectangle10: View
@@ -84,9 +85,11 @@ class ExploreActivity : AppCompatActivity() {
         exploreEk3 = findViewById(R.id.explore_ek3)
         _bgFrame40Ek1 = findViewById(R.id._bg__frame_40_ek1)
         _bgFrame38Ek1 = findViewById(R.id._bg__frame_38_ek1)
-        _612ElizaJacksonTheRealLifeOfAUiDesigner = findViewById(R.id._612__eliza_jackson___the_real_life_of_a_ui_designer)
+        _612ElizaJacksonTheRealLifeOfAUiDesigner =
+            findViewById(R.id._612__eliza_jackson___the_real_life_of_a_ui_designer)
         uiBreakfastShow = findViewById(R.id.ui_breakfast_show)
-        _373638374183826530190505779115429023306986470N1 = findViewById(R.id._373638374_18382653019050577_9115429023306986470_n_1)
+        _373638374183826530190505779115429023306986470N1 =
+            findViewById(R.id._373638374_18382653019050577_9115429023306986470_n_1)
         snapinsta1 = findViewById(R.id.snapinsta_1)
         _bgGroup9Ek1 = findViewById(R.id._bg__group_9_ek1)
         _bgGroup8Ek1 = findViewById(R.id._bg__group_8_ek1)
@@ -105,7 +108,7 @@ class ExploreActivity : AppCompatActivity() {
         menuDivider = findViewById(R.id.menu_divider)
         _bg4Ek1 = findViewById(R.id._bg___4_ek1)
         _bg4AccountInactiveEk1 = findViewById(R.id._bg___4_account___inactive_ek1)
-        containerEk1 = findViewById(R.id.container_ek1)
+
         _bgPeopleEk1 = findViewById(R.id._bg__people_ek1)
         vectorEk3 = findViewById(R.id.vector_ek3)
         vectorEk4 = findViewById(R.id.vector_ek4)
@@ -145,5 +148,26 @@ class ExploreActivity : AppCompatActivity() {
         vectorStroke = findViewById(R.id.vector__stroke_)
 
         // custom code goes here
+
+        // Implement the onClick method from View.OnClickListener
+
     }
+    // Implement the onClick method from View.OnClickListener
+    override fun onClick(v: View) {
+        when (v.id) {
+            R.id.container_ek1 -> {
+                // Create an Intent to start the ActivityViewProfile
+                val intent = Intent(this, Viewprofil::class.java)
+
+                // You can also pass data to the next activity if needed
+                // intent.putExtra("key", "value")
+
+                // Start the new activity
+                startActivity(intent)
+            }
+            // Handle other view clicks if needed
+        }
+    }
+
 }
+

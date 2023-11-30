@@ -10,4 +10,30 @@
     <string name="my_name_is_jessica_parker_and_i_enjoy_meeting_new_people_and_finding_ways_to_help_them_have_an_uplifting_experience__i_enjoy_reading___string">My name is Jessica Parker and I enjoy meeting new people and finding ways to help them have an uplifting experience. I enjoy reading..</string>
     <string name="about_string">About</string>
     <string name="__5_coin_string">-5 coin</string>
+
+
+    <string name="ig___tokyovibess__string">IG : tokyovibess_ </string>
+    <string name="initokyolagii_string">initokyolagii</string>
+    <string name="profil_pengguna_string">Profil Pengguna</string>
+    <string name="_2_6m_string">2.6M</string>
+    <string name="followers_string">Followers</string>
+    <string name="_4_6_m_string">4.6 M</string>
+    <string name="likes_string">Likes</string>
+    <string name="_1m_string">1M</string>
+    <string name="views_string">Views</string>
+    <string name="follow_string">Follow</string>
+    <string name="gallery_string">Gallery </string>
+
+    <string name="popular_string">Popular</string>
+    <string name="mimi_headline_string">Mimi Headline</string>
+    <string name="content_string">Content</string>
+    <string name="preferences_string">Preferences</string>
+    <string name="trending_string">Trending</string>
+    <string name="download_string">Download</string>
+    <string name="favourite_string">Favourite</string>
+    <string name="darkmode_string">Darkmode</string>
+    <string name="today_string">Today</string>
+    <string name="only_download_via_wifi_string">Only Download via Wifi</string>
+    <string name="edit_profile_ek3_string">Edit Profile</string>
+    <string name="profile_string">Profile</string>
 </resources>
